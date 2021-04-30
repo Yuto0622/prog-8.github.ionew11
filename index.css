@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+header {
+  background: #e3f4f5;
+  height: 90px;
+  color: #8b694f;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+header p {
+  text-align: center;
+  font-family: 'Noto Serif JP', sans-serif;
+
+}
+
+.top-wrapper {
+  padding-bottom: 100px;
+  background-color: #806c57;
+  color: white;
+  position: relative;
+}
+
+.top-wrapper div {
+  display: flex;
+  padding-left: 50px;
+  justify-content: left;
+  align-items: center;
+ }
+
+ .top-wrapper h1{
+  display: inline;
+ font-family: 'Noto Serif JP', sans-serif;
+ font-size: 90px;
+}
+
+
+.container {
+  height: 700px;
+  background-size: cover;
+  background-image: url("massage-therapy-1612308__480.webp");
+}
+
+
+.lesson-wrapper {
+  background-color: #e3f4f5;
+  margin: auto;
+  height: 1200px;
+}
+
+img {
+  width: 330px;
+}
+
+.lesson-wrapper img{
+ display: flex;
+ flex-direction:column;
+ align-items: right;
+ 
+}
+
+.img1 {
+  box-shadow: -40px 20px #806c57;
+  margin-bottom: 90px;
+  margin-top: 70px;
+}
+
+.img2 {
+  box-shadow: -40px -20px #806c57
+}
+
+ footer {
+   width: 100%;
+   height: 150px;
+   background-color: #e3f4f5;
+   color: #8b694f;
+ }
+
+ footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ footer h2 {
+   display: inline;
+   
+  font-family: 'Noto Serif JP', sans-serif
+ }
+
+
+
+ footer p {
+   display: inline-block;
+ }
+
+ footer h1 {
+  display: inline;
+  font-size: 50px;
+  font-weight: normal;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+ footer span {
+   text-align: center;
+ }
+
+ .flex {
+   display: flex;
+   justify-content: center;
+ }
+
+ .flex div:first-child {
+   flex-basis: 60%;
+ }
+
+ .flex div:last-child {
+   flex-basis: 40%;
+ }
+
+ .flex h1{
+  margin: 200px 0 0 400px ;
+  width: 200px;
+  height: 50px;
+  background-color: #806c57;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+
+
+
+.text {
+  text-align: center;
+ 
+}
+
+.text2 {
+  text-align: center;
+  height: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #FAEBD7;
+}
+
+.p {
+  display: block;
+  padding: 40px 0 40px 0;
+}
+
+.message-wrapper {
+  height: 1200px;
+  background-color:#806c57;
+  color: white;
+}
+
+.message-wrapper {
+  font-family: 'Noto Serif JP', sans-serif;
+  padding: 30px;
+}
+
+.item1 {
+  width: 370px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
+.item1 p {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.item2 {
+  width: 370px;
+  margin-left: auto;
+  position: relative;
+}
+
+.box1 {
+  position: absolute;
+  top: 20px;
+  left: -50px;
+}
+
+.item2 p {
+  width: 400px;
+  margin-left: auto;
+}
+
+.item3 {
+  width: 370px;
+  margin-right: auto;
+  position: relative;
+}
+
+.box2 {
+  position: absolute;
+  top: 170px;
+  left: 0;
+}
+
+.item3 p {
+  width: 400px;
+}
+
+@media screen and (min-width: 900px) {
+
+    .flex h1{
+      margin: 200px 0 0 200px ;
+      width: 200px;
+      height: 50px;
+      background-color: #806c57;
+      font-family: 'Noto Serif JP', sans-serif;
+    }
+  
+}
+
+@media screen and (min-width: 800px) {
+
+  .flex h1{
+    margin: 200px 100px 0 100px;
+    width: 200px;
+    height: 50px;
+    background-color: #806c57;
+    font-family: 'Noto Serif JP', sans-serif;
+  }
+
+  .text2 {
+    text-align: center;
+    height: 400px;
+    margin-left: 90px;
+    margin-right: 100px;
+    background-color: #FAEBD7;
+  }
+}
